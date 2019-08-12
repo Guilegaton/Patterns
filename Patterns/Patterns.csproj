@@ -42,6 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="02. Creational\Factory Method\Factories\MailFactory.cs" />
+    <Compile Include="02. Creational\Factory Method\Factories\PackageFactory.cs" />
+    <Compile Include="02. Creational\Factory Method\Interfaces\IPostFactory.cs" />
+    <Compile Include="02. Creational\Factory Method\Interfaces\IPostProduct.cs" />
+    <Compile Include="02. Creational\Factory Method\Models\Mail.cs" />
+    <Compile Include="02. Creational\Factory Method\Models\Package.cs" />
+    <Compile Include="02. Creational\Factory Method\FactoryProcess.cs" />
+    <Compile Include="Interfaces\IExampleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,9 +57,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavior\" />
-    <Folder Include="Creational\Factory Method\" />
-    <Folder Include="Structur\" />
+    <Folder Include="01. Behavior\" />
+    <Folder Include="03. Structur\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
