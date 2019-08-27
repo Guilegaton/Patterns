@@ -1,4 +1,4 @@
-﻿namespace Patterns.Creational.Factory_Method.Interfaces
+﻿namespace Patterns.Creational.AbstractFactory.Interfaces
 {
     public interface IPostProduct
     {

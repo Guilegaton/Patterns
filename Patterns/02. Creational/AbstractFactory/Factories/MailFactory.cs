@@ -1,7 +1,7 @@
-﻿using Patterns.Creational.Factory_Method.Interfaces;
-using Patterns.Creational.Factory_Method.Models;
+﻿using Patterns.Creational.AbstractFactory.Interfaces;
+using Patterns.Creational.AbstractFactory.Models;
 
-namespace Patterns.Creational.Factory_Method.Factories
+namespace Patterns.Creational.AbstractFactory.Factories
 {
     public class MailFactory : IPostFactory
     {

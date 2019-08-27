@@ -42,16 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02. Creational\Factory Method\Factories\MailFactory.cs" />
-    <Compile Include="02. Creational\Factory Method\Factories\PackageFactory.cs" />
-    <Compile Include="02. Creational\Factory Method\Interfaces\IPostFactory.cs" />
-    <Compile Include="02. Creational\Factory Method\Interfaces\IPostProduct.cs" />
-    <Compile Include="02. Creational\Factory Method\Models\Mail.cs" />
-    <Compile Include="02. Creational\Factory Method\Models\Package.cs" />
-    <Compile Include="02. Creational\Factory Method\FactoryProcess.cs" />
+    <Compile Include="02. Creational\Builder\BuilderProcess.cs" />
+    <Compile Include="02. Creational\Builder\Builders\AddressantBuilder.cs" />
+    <Compile Include="02. Creational\Builder\Builders\AddressBuilder.cs" />
+    <Compile Include="02. Creational\Builder\Builders\MailBuilder.cs" />
+    <Compile Include="02. Creational\Builder\Builders\PersonBuilder.cs" />
+    <Compile Include="02. Creational\Builder\Builders\PostOfficeBuilder.cs" />
+    <Compile Include="02. Creational\Builder\Interfaces\IBuilder.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Factories\MailFactory.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Factories\PackageFactory.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Interfaces\IPostFactory.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Interfaces\IPostProduct.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Models\Mail.cs" />
+    <Compile Include="02. Creational\AbstractFactory\Models\Package.cs" />
+    <Compile Include="02. Creational\AbstractFactory\FactoryProcess.cs" />
+    <Compile Include="02. Creational\Builder\Models\Address.cs" />
+    <Compile Include="02. Creational\Builder\Models\Addressant.cs" />
+    <Compile Include="02. Creational\Builder\Models\Mail.cs" />
+    <Compile Include="02. Creational\Builder\Models\Person.cs" />
+    <Compile Include="02. Creational\Builder\Models\PostOffice.cs" />
     <Compile Include="Interfaces\IExampleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\StringUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

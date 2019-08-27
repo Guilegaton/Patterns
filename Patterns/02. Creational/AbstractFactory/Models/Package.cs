@@ -1,7 +1,7 @@
-﻿using Patterns.Creational.Factory_Method.Interfaces;
+﻿using Patterns.Creational.AbstractFactory.Interfaces;
 using System;
 
-namespace Patterns.Creational.Factory_Method.Models
+namespace Patterns.Creational.AbstractFactory.Models
 {
     public class Package : IPostProduct
     {

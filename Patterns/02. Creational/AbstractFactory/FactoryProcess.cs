@@ -1,8 +1,8 @@
-﻿using Patterns.Creational.Factory_Method.Factories;
-using Patterns.Creational.Factory_Method.Interfaces;
+﻿using Patterns.Creational.AbstractFactory.Factories;
+using Patterns.Creational.AbstractFactory.Interfaces;
 using Patterns.Interfaces;
 
-namespace Patterns.Creational.Factory_Method
+namespace Patterns.Creational.AbstractFactory
 {
     public class FactoryProcess : IExampleService
     {
