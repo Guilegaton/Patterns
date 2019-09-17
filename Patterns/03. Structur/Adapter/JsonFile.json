@@ -1,0 +1,420 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@standalone": "no"
+      },
+    "object":{
+        "Answers": [
+          {
+            "Question": {
+              "Languages": [
+                {
+                  "Description": null,
+                  "LanguageCode": "RU        ",
+                  "Text": "Знание технологий",
+                  "Id": 127,
+                  "ItemGuid": "280e1d50-13f2-4057-9b5d-7d30079e2595"
+                }
+              ],
+              "Order": 1,
+              "QuestionItems": [],
+              "Quiz": null,
+              "QuizId": 13,
+              "Table": null,
+              "TableId": 7,
+              "Type": 30,
+              "Name": "Knowledge of Technology                           ",
+              "Id": 15,
+              "ItemGuid": "280e1d50-13f2-4057-9b5d-7d30079e2595"
+            },
+            "QuestionId": 15,
+            "QuestionText": "Знание технологий",
+            "Answer": [
+              {
+                "QuestionItem": {
+                  "Languages": [
+                    {
+                      "Description": null,
+                      "LanguageCode": "RU        ",
+                      "Text": "OOP",
+                      "Id": 74,
+                      "ItemGuid": "b60e9ffe-f656-4339-9030-bbe8ef1f1b23"
+                    }
+                  ],
+                  "Order": 1,
+                  "Question": null,
+                  "QuestionId": 15,
+                  "Name": "OOP",
+                  "Id": 27,
+                  "ItemGuid": "b60e9ffe-f656-4339-9030-bbe8ef1f1b23"
+                },
+                "TemplateItem": {
+                  "Languages": [
+                    {
+                      "Description": null,
+                      "LanguageCode": "RU        ",
+                      "Text": "Знаком",
+                      "Id": 71,
+                      "ItemGuid": "63670039-d48d-479b-844f-30a58ce1247d"
+                    }
+                  ],
+                  "Table": null,
+                  "TableId": 7,
+                  "Order": 3,
+                  "Name": "Average",
+                  "Id": 14,
+                  "ItemGuid": "63670039-d48d-479b-844f-30a58ce1247d"
+                }
+              },
+              {
+                "QuestionItem": {
+                  "Languages": [
+                    {
+                      "Description": null,
+                      "LanguageCode": "RU        ",
+                      "Text": "ADO.NET",
+                      "Id": 80,
+                      "ItemGuid": "c473a951-c8cd-4e57-a208-c5c46b285b65"
+                    }
+                  ],
+                  "Order": 7,
+                  "Question": null,
+                  "QuestionId": 15,
+                  "Name": "ADO.NET",
+                  "Id": 33,
+                  "ItemGuid": "c473a951-c8cd-4e57-a208-c5c46b285b65"
+                },
+                "TemplateItem": {
+                  "Languages": [
+                    {
+                      "Description": null,
+                      "LanguageCode": "RU        ",
+                      "Text": "Не знаком",
+                      "Id": 69,
+                      "ItemGuid": "32c1a7d7-2c99-44aa-9730-d929e0542750"
+                    }
+                  ],
+                  "Table": null,
+                  "TableId": 7,
+                  "Order": 1,
+                  "Name": "Not used",
+                  "Id": 12,
+                  "ItemGuid": "32c1a7d7-2c99-44aa-9730-d929e0542750"
+                }
+              }
+            ]
+          },
+          {
+            "AllVariant": [
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "своевременно",
+                    "Id": 107,
+                    "ItemGuid": "fc704231-8c8f-427c-93aa-4be832b69995"
+                  }
+                ],
+                "Order": 1,
+                "Question": {
+                  "Languages": [],
+                  "Order": 7,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Reports time                                      ",
+                  "Id": 20,
+                  "ItemGuid": "f3302894-2cef-4fc4-b627-01c8563c3e7d"
+                },
+                "QuestionId": 20,
+                "Name": "High",
+                "Id": 55,
+                "ItemGuid": "fc704231-8c8f-427c-93aa-4be832b69995"
+              },
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "несвоевременно",
+                    "Id": 108,
+                    "ItemGuid": "d3e61d38-5b6c-488f-9596-8312f84fa8bf"
+                  }
+                ],
+                "Order": 2,
+                "Question": {
+                  "Languages": [],
+                  "Order": 7,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Reports time                                      ",
+                  "Id": 20,
+                  "ItemGuid": "f3302894-2cef-4fc4-b627-01c8563c3e7d"
+                },
+                "QuestionId": 20,
+                "Name": "Low",
+                "Id": 56,
+                "ItemGuid": "d3e61d38-5b6c-488f-9596-8312f84fa8bf"
+              }
+            ],
+            "Question": {
+              "Languages": [
+                {
+                  "Description": "Отчеты в TeamIntegrator, Redmine, клиентам (если требуется)",
+                  "LanguageCode": "RU        ",
+                  "Text": " Насколько своевременно сотрудник подает отчеты ",
+                  "Id": 106,
+                  "ItemGuid": "f3302894-2cef-4fc4-b627-01c8563c3e7d"
+                }
+              ],
+              "Order": 7,
+              "QuestionItems": [],
+              "Quiz": null,
+              "QuizId": 13,
+              "Table": null,
+              "TableId": null,
+              "Type": 20,
+              "Name": "Reports time                                      ",
+              "Id": 20,
+              "ItemGuid": "f3302894-2cef-4fc4-b627-01c8563c3e7d"
+            },
+            "QuestionId": 20,
+            "SelectedItem": {
+              "Languages": [
+                {
+                  "Description": null,
+                  "LanguageCode": "RU        ",
+                  "Text": "своевременно",
+                  "Id": 107,
+                  "ItemGuid": "fc704231-8c8f-427c-93aa-4be832b69995"
+                }
+              ],
+              "Order": 1,
+              "Question": null,
+              "QuestionId": 20,
+              "Name": "High",
+              "Id": 55,
+              "ItemGuid": "fc704231-8c8f-427c-93aa-4be832b69995"
+            },
+            "QuestionText": " Насколько своевременно сотрудник подает отчеты "
+          },
+          {
+            "AllVariant": [
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "Выдающийся уровень",
+                    "Id": 64,
+                    "ItemGuid": "5fe4283a-a4e5-4262-906f-7a4f0d1ed51e"
+                  }
+                ],
+                "Order": 1,
+                "Question": {
+                  "Languages": [],
+                  "Order": 2,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Professional skills                               ",
+                  "Id": 14,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                },
+                "QuestionId": 14,
+                "Name": "High level",
+                "Id": 22,
+                "ItemGuid": "5fe4283a-a4e5-4262-906f-7a4f0d1ed51e"
+              },
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "Уровень выше ожидаемого",
+                    "Id": 65,
+                    "ItemGuid": "57f591c6-119d-4113-addf-b65c00663639"
+                  }
+                ],
+                "Order": 2,
+                "Question": {
+                  "Languages": [],
+                  "Order": 2,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Professional skills                               ",
+                  "Id": 14,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                },
+                "QuestionId": 14,
+                "Name": "Above the average",
+                "Id": 23,
+                "ItemGuid": "57f591c6-119d-4113-addf-b65c00663639"
+              },
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "На ожидаемом уровне",
+                    "Id": 66,
+                    "ItemGuid": "339305d8-98f4-4bef-9b9b-c9828545dbff"
+                  }
+                ],
+                "Order": 3,
+                "Question": {
+                  "Languages": [],
+                  "Order": 2,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Professional skills                               ",
+                  "Id": 14,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                },
+                "QuestionId": 14,
+                "Name": "Medium",
+                "Id": 24,
+                "ItemGuid": "339305d8-98f4-4bef-9b9b-c9828545dbff"
+              },
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "Ниже ожидаемого уровня",
+                    "Id": 67,
+                    "ItemGuid": "db21afc5-3cd7-46c3-b27e-be0d09434b0d"
+                  }
+                ],
+                "Order": 4,
+                "Question": {
+                  "Languages": [],
+                  "Order": 2,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Professional skills                               ",
+                  "Id": 14,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                },
+                "QuestionId": 14,
+                "Name": "below the average",
+                "Id": 25,
+                "ItemGuid": "db21afc5-3cd7-46c3-b27e-be0d09434b0d"
+              },
+              {
+                "Languages": [
+                  {
+                    "Description": null,
+                    "LanguageCode": "RU        ",
+                    "Text": "Неудовлетворительный уровень",
+                    "Id": 68,
+                    "ItemGuid": "84075f53-0c09-4796-a74a-afc0fd74f608"
+                  }
+                ],
+                "Order": 5,
+                "Question": {
+                  "Languages": [],
+                  "Order": 2,
+                  "QuestionItems": [],
+                  "Quiz": null,
+                  "QuizId": 13,
+                  "Table": null,
+                  "TableId": null,
+                  "Type": 20,
+                  "Name": "Professional skills                               ",
+                  "Id": 14,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                },
+                "QuestionId": 14,
+                "Name": "Low level",
+                "Id": 26,
+                "ItemGuid": "84075f53-0c09-4796-a74a-afc0fd74f608"
+              }
+            ],
+            "Question": {
+              "Languages": [
+                {
+                  "Description": "Оцените профессиональные навыки по таким критериям как: качество кода; предложение решений; обнаружение нетривиальных багов; аналитика и т.д.",
+                  "LanguageCode": "RU        ",
+                  "Text": "Профессиональные навыки",
+                  "Id": 63,
+                  "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+                }
+              ],
+              "Order": 2,
+              "QuestionItems": [],
+              "Quiz": null,
+              "QuizId": 13,
+              "Table": null,
+              "TableId": null,
+              "Type": 20,
+              "Name": "Professional skills                               ",
+              "Id": 14,
+              "ItemGuid": "eb2fa94e-218d-4dd0-8352-d44a270a8c0e"
+            },
+            "QuestionId": 14,
+            "SelectedItem": {
+              "Languages": [
+                {
+                  "Description": null,
+                  "LanguageCode": "RU        ",
+                  "Text": "Выдающийся уровень",
+                  "Id": 64,
+                  "ItemGuid": "5fe4283a-a4e5-4262-906f-7a4f0d1ed51e"
+                }
+              ],
+              "Order": 1,
+              "Question": null,
+              "QuestionId": 14,
+              "Name": "High level",
+              "Id": 22,
+              "ItemGuid": "5fe4283a-a4e5-4262-906f-7a4f0d1ed51e"
+            },
+            "QuestionText": "Профессиональные навыки"
+          }
+        ],
+        "BlockName": "466c82b8-1e26-48ff-a29e-3708386d146e",
+        "Language": "RU",
+        "Quiz": {
+          "Department": "All",
+          "Description": null,
+          "Questions": [],
+          "Results": [],
+          "Languages": [],
+          "Name": "Evaluation Form",
+          "Id": 13,
+          "ItemGuid": "3eed5477-65cb-45c4-930d-b465ffdf5426"
+        },
+        "QuizId": 13,
+        "User": {
+          "Email": "julii.vedkal@ssa.group",
+          "Id": 4,
+          "Name": "MMM",
+          "Results": []
+        },
+        "UserId": 4
+    }
+}

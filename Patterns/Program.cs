@@ -1,4 +1,9 @@
-using Patterns.Creational.Factory_Method;
+using Patterns._02._Creational.Builder;
+using Patterns._02._Creational.FactoryMethod;
+using Patterns._02._Creational.Prototype;
+using Patterns._02._Creational.Singleton;
+using Patterns._03._Structur.Adapter;
+using Patterns.Creational.AbstractFactory;
 using Patterns.Interfaces;
 
 namespace Patterns
@@ -15,7 +20,7 @@ namespace Patterns
 
         private static void DefineExampleService()
         {
-            exampleService = new FactoryProcess();
+            exampleService = new AdapterProcess(); //new SingletonProcess();//new PrototypeProcess();//new FactoryMethodProcess(); //new BuilderProcess(); //new FactoryProcess();
         }
 
         private static void Main(string[] args)
