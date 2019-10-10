@@ -102,6 +102,14 @@
     <Compile Include="03. Structur\Adapter\AdapterProcess.cs" />
     <Compile Include="03. Structur\Adapter\Services\JsonToXmlAdapter.cs" />
     <Compile Include="03. Structur\Adapter\Services\XmlProcessService.cs" />
+    <Compile Include="03. Structur\Bridge\BridgeProcess.cs" />
+    <Compile Include="03. Structur\Bridge\Interfaces\IRenderer.cs" />
+    <Compile Include="03. Structur\Bridge\Models\BitmapRenderer.cs" />
+    <Compile Include="03. Structur\Bridge\Models\Circle.cs" />
+    <Compile Include="03. Structur\Bridge\Models\PixelRenderer.cs" />
+    <Compile Include="03. Structur\Bridge\Models\Point.cs" />
+    <Compile Include="03. Structur\Bridge\Models\Shape.cs" />
+    <Compile Include="03. Structur\Bridge\Models\Square.cs" />
     <Compile Include="Interfaces\IExampleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
