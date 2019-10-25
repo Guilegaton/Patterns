@@ -117,6 +117,9 @@
     <Compile Include="03. Structur\Decorator\Models\MailSender.cs" />
     <Compile Include="03. Structur\Decorator\Models\PackageSender.cs" />
     <Compile Include="03. Structur\Decorator\Models\PostProcessingSenderDecorator.cs" />
+    <Compile Include="03. Structur\Facade\FacadeProcess.cs" />
+    <Compile Include="03. Structur\Facade\Models\FileManager.cs" />
+    <Compile Include="03. Structur\Facade\Models\FileFacade.cs" />
     <Compile Include="Interfaces\IExampleService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
